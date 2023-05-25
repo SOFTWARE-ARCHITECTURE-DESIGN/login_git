@@ -1,0 +1,139 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-image: url('https://media.licdn.com/dms/image/D4D22AQFOjy8NYyTnRg/feedshare-shrink_2048_1536/0/1685011363741?e=1687996800&v=beta&t=mokwLyglPYrQuScIJ8ww9VpuXMhsQ1xFBYYs9fscumQ');
+    background-size: cover;
+}
+
+.container {
+    width: 30%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    /*font-weight: bold;*/
+    color: rgb(98, 0, 128);
+    -webkit-text-stroke: 0.5px white;
+    text-stroke: 0.5px white;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    width: 80%;
+    max-width: 300px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #ab348d;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+color: #8e8e8e;
+}
+
+input[type="text"]:focus::placeholder,
+input[type="password"]:focus::placeholder {
+color: transparent;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(98, 0, 128);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+        background-color: #65E5FF;
+        color: rgb(0, 0, 0);
+}
+
+/* Bottone Apple */
+button.apple-login-button {
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px 50px;
+    margin-top: 50px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+    button.apple-login-button:hover {
+        background-color: gray;
+    }
+
+/* Bottone Google */
+button.google-login-button {
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px 50px;
+    margin-top: 10px;
+   /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg');*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+    button.google-login-button:hover {
+        background-color: gray;
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg');
+    }
+
+.login-signup-now {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+    .login-signup-now a {
+        color: #65E5FF;
+        text-decoration: none;
+    }
+
+    .login-signup-now a:hover {
+            text-decoration: underline;
+        }
+
+.login-help-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+    .login-help-link:hover {
+        text-decoration: underline;
+    }
