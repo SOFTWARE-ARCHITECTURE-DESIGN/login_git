@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css" >
+  </head>
+  <body>
+    <div class="container">
+      <h1>LOGIN</h1>
+      <form action="http://localhost:8080/login" method="post">
+      <form>
+
+        <input type="text" id="email" name="email" placeholder="Username">
+
+        <input type="password" id="password" name="password" placeholder="Password">
+        <input type="submit" value="Accedi">
+      <button class="apple-login-button">Accedi con Apple</button> 
+		  <button class="google-login-button">Accedi con Google</button> 
+    <div class="login-signup-now" data-uia="login-signup-now">Prima volta su GameAPPS? <a class="" target="_self" href="/">Registrati</a>.</div>
+		<a class="login-help-link link" target="_self" data-uia="login-help-link" href="/LoginHelp">Hai dimenticato la password?</a>
+      </form>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
